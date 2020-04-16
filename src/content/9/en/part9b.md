@@ -53,7 +53,7 @@ and set up <i>scripts</i> within the package.json:
 ```
 
 <!-- Now within this directory you can use <i>ts-node</i>by running <i>npm run ts-node</i>. Notice that if you are using ts-node through package.json, all possible command line arguments for the script need to be prefixed with <i>--</i>. So if you want to run file.ts with <i>ts-node</i>, the whole command is: -->
-Now within this directory you can use <i>ts-node</i>by running <i>npm run ts-node</i>. Note that if you are using ts-node through package.json, all  command line arguments for the script need to be prefixed with <i>--</i>. So if you want to run file.ts with <i>ts-node</i>, the whole command is: -->
+Now within this directory you can use <i>ts-node</i> by running <i>npm run ts-node</i>. Note that if you are using ts-node through package.json, all  command line arguments for the script need to be prefixed with <i>--</i>. So if you want to run file.ts with <i>ts-node</i>, the whole command is: -->
 
 ```sh
 npm run ts-node -- file.ts
@@ -267,6 +267,7 @@ Let's return to the basic idea of TypeScript. TypeScript expects all globally us
 
 <!-- As in the world of npm, TypeScript also celebrates open source code and the community around it is active and continuously reacting to updates and changes in commonly used npm-packages. That is why the typings for npm-packages are almost always to be found, so that you won't be alone creating types for all of your thousands of dependencies. -->
 As with npm, the TypeScript world also celebrates open source code. The community is active and continuously reacting to updates and changes in commonly used npm-packages.  
+
 You can almost always find the typings for npm-packages, so you don't have to create types for all of your thousands of dependencies alone.
 
 <!-- Usually types for existing packages can be found by under the <i>@types</i>-organization within npm, so that you can add the relevant types to your project by installing an npm package with the name of your package with a @types/ - prefix, for example:<i>npm install --save-dev @types/react @types/express @types/lodash @types/jest @types/mongoose</i> and the list goes on and on. The <i>@types/*</i> are maintained by [Definitely typed](http://definitelytyped.org/), a community project with the goal to maintaining types of everything in one place. -->
